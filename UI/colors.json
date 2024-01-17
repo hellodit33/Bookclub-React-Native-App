@@ -1,0 +1,45 @@
+{
+"primary": {
+    "color": "#9D5C63",
+    "onColor": "white"
+  },
+  "primary_variant": {
+    "color": "#FFEA2A",
+    "onColor": "#1E1E19"
+  },
+  "secondary": {
+    "color": "#FFEA2A",
+    "onColor": "#1E1E19",
+    "variantColor": "#f0eef3"
+  },
+  "secondary_variant": {
+    "color": "#000fae",
+    "onColor": "#FFF"
+  },
+  "tertiary": {
+    "color": "#C5A2A2",
+    "onColor": "#1E1E19"
+  },
+  "tertiary_variant": {
+    "color": "#FFEA2A",
+    "onColor": "#1E1E19"
+  },
+  "background": {
+    "color": "#FFFFFF",
+    "variantColor": "#43433C",
+    "onColor": "#000",
+    "inactiveOnColor": "#8E8995",
+    "lightOnColor": "#DEDEDE"
+  },
+  "error": "#D12903",
+  "success": "#00C853",
+  "warning": "#F46700",
+  "color_codes": {
+    "orange": "#FCDF78",
+    "green_dark": "#364D07",
+    "green_light": "#46CFA6",
+    "dark_body": "#DEDEDE",
+    "dark_gray": "#8B8B8B",
+    "light_gray": "#D9D9D9"
+  }
+}
