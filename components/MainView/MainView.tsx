@@ -6,16 +6,17 @@ import PageTitle from '../PageTitle';
 type OwnProps = {
   headerTitle: string;
   children: any;
+  bookclub?: string;
 };
 
 type Props = OwnProps;
 
-const MainView = ({headerTitle, children}: Props) => {
+const MainView = ({headerTitle, children, bookclub}: Props) => {
   return (
     <S.MainView>
       <S.Header>
         <QuarterCircle />
-        <PageTitle headerTitle={headerTitle} />
+        <PageTitle headerTitle={headerTitle} bookclub={bookclub} />
       </S.Header>
       {children}
     </S.MainView>

@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './styled';
 import BookCover from '../BookCover';
+import {VerticalSpace} from '../styled';
 
 type OwnProps = {
   author?: string;
@@ -16,6 +17,7 @@ const BookGrid = ({item, author, summary}: Props) => {
       <BookCover bookImage={item} />
       <S.BookInfo>
         <S.BookAuthor>{author}</S.BookAuthor>
+        <VerticalSpace size={2} />
         <S.BookSummary>{summary}</S.BookSummary>
       </S.BookInfo>
     </S.BookGrid>

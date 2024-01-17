@@ -1,7 +1,9 @@
 import styled from 'styled-components/native';
 import theme from '../../UI';
 
-export const PageTitleView = styled.View``;
+export const PageTitleView = styled.View`
+  flex-direction: column;
+`;
 
 export const PageTitle = styled.Text`
   font-size: 28px;

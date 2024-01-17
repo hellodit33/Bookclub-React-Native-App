@@ -7,7 +7,7 @@ type OwnProps = {
   children?: React.ReactNode;
   editIcon?: React.ReactNode;
   touchable?: boolean;
-  onPress?: () => void; // Add the onPress prop
+  onPress?: () => void;
 };
 
 type Props = OwnProps;

@@ -17,6 +17,7 @@ import User from './assets/Profile';
 import Notes from './screens/Notes';
 import BookQuotes from './screens/BookQuotes';
 import BookDetails from './screens/BookDetails';
+import BookIdeaDetails from './screens/BookIdeaDetails';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -116,6 +117,32 @@ const App = () => {
           component={BookDetails}
           options={({navigation}) => ({
             title: 'BookDetails',
+            headerLeft: () => (
+              <IconButton
+                icon="arrow-left"
+                onPress={() => navigation.goBack()}
+              />
+            ),
+          })}
+        />
+         <Stack.Screen
+          name="BookIdeaDetails"
+          component={BookIdeaDetails}
+          options={({navigation}) => ({
+            title: 'BookIdeaDetails',
+            headerLeft: () => (
+              <IconButton
+                icon="arrow-left"
+                onPress={() => navigation.goBack()}
+              />
+            ),
+          })}
+        />
+         <Stack.Screen
+          name="Bookclub"
+          component={Bookclub}
+          options={({navigation}) => ({
+            title: 'Bookclub',
             headerLeft: () => (
               <IconButton
                 icon="arrow-left"

@@ -28,7 +28,7 @@ const BookclubOverview = () => {
   };
 
   return (
-    <MainView headerTitle="My Bookclub">
+    <MainView headerTitle="My Bookclub" bookclub="Title">
       <VerticalSpace size={6} />
       <Body>
         <MajorTitle majorTitle="next bookclub" />
